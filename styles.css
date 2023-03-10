@@ -106,6 +106,9 @@ body {
   }
 
 @media (min-width: 375px) {
+    section {
+        padding-left: 12px;
+    }
     section h1 {
         font-size: 48px;
     }

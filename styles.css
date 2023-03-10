@@ -113,14 +113,19 @@ a:hover {
     }
 
     section {
-        margin: 20px;
+        margin: 0 20px;
     }
 
     section h1 {
         font-size: 48px;
+        margin-bottom: 0;
     }
 
     section p {
         font-size: 18px;
+    }
+
+    button {
+        padding-top: 20px;
     }
 }

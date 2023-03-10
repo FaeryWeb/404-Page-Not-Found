@@ -25,11 +25,12 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px 0 30px;
   }
   
   figure,
   section {
-    width: 40%;
+    flex-basis: 40%;
   }
   
   figure img {
@@ -57,7 +58,7 @@ body {
     letter-spacing: -0.035em;
     text-align: left;
     color: #4f4f4f;
-    width: 381px;
+    width: 75%;
   }
   
   section button {
@@ -105,13 +106,8 @@ body {
   }
 
 @media (min-width: 375px) {
-    figure,
     section {
-        width: 100%;
-    } 
-
-    section {
-        padding-left: 12px;
+        padding-left: 20px;
     }
     section h1 {
         font-size: 48px;

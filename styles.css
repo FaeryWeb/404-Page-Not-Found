@@ -122,10 +122,11 @@ a:hover {
     }
 
     section p {
+        margin-top: 0;
         font-size: 18px;
     }
 
     button {
-        padding-top: 20px;
+        margin-top: 20px;
     }
 }

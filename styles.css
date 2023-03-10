@@ -25,12 +25,11 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 0 30px;
   }
   
   figure,
   section {
-    flex-basis: 40%;
+    width: 40%;
   }
   
   figure img {
@@ -106,6 +105,11 @@ body {
   }
 
 @media (min-width: 375px) {
+    figure,
+    section {
+        width: 100%;
+    } 
+
     section {
         padding-left: 12px;
     }

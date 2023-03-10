@@ -1,14 +1,14 @@
 body {
     padding: 0;
     margin: 0;
-  }
-  
-  header {
+}
+
+header {
     width: 100%;
     height: 50px;
-  }
-  
-  header > p {
+}
+
+header>p {
     font-family: "Inconsolata", monospace;
     font-weight: 700;
     font-size: 24px;
@@ -17,29 +17,29 @@ body {
     text-transform: uppercase;
     color: #333333;
     margin: 20px 30px;
-  }
-  
-  main {
+}
+
+main {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 10px 0 30px;
-  }
-  
-  figure,
-  section {
+}
+
+figure,
+section {
     flex-basis: 40%;
-  }
-  
-  figure img {
+}
+
+figure img {
     width: 100%;
     min-width: 286.83px;
     max-width: 539.22px;
-  }
-  
-  section h1 {
+}
+
+section h1 {
     font-family: "Space Mono", monospace;
     font-size: 64px;
     font-weight: 700;
@@ -48,9 +48,9 @@ body {
     text-align: left;
     color: #333333;
     width: 100%;
-  }
-  
-  section p {
+}
+
+section p {
     font-family: "Space Mono", monospace;
     font-size: 24px;
     font-weight: 400;
@@ -59,9 +59,9 @@ body {
     text-align: left;
     color: #4f4f4f;
     width: 75%;
-  }
-  
-  section button {
+}
+
+section button {
     width: 216px;
     height: 68px;
     background-color: #333333;
@@ -74,14 +74,14 @@ body {
     letter-spacing: -0.035em;
     text-transform: uppercase;
     color: #ffffff;
-  }
-  
-  footer {
+}
+
+footer {
     width: 100%;
     margin-top: 100px;
-  }
-  
-  footer > p {
+}
+
+footer>p {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -89,30 +89,37 @@ body {
     line-height: 17px;
     text-align: center;
     color: #bdbdbd;
-  }
-  
-  footer p a {
+}
+
+footer p a {
     color: inherit;
     text-decoration: none;
-  }
-  
-  footer p span {
+}
+
+footer p span {
     text-decoration: underline;
     font-weight: 700;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: #333333;
-  }
+}
 
 @media (max-width: 375px) {
+
     figure,
     section {
-    flex-basis: 100%;
+        flex-basis: 100%;
     }
+
+    section {
+        margin: 20px;
+    }
+
     section h1 {
         font-size: 48px;
     }
+
     section p {
         font-size: 18px;
     }

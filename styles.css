@@ -35,6 +35,8 @@ body {
   
   figure img {
     width: 100%;
+    min-width: 286.83px;
+    max-width: 539.22px;
   }
   
   section h1 {
@@ -102,4 +104,12 @@ body {
   a:hover {
     color: #333333;
   }
-  
+
+@media (min-width: 375px) {
+    section h1 {
+        font-size: 48px;
+    }
+    section p {
+        font-size: 18px;
+    }
+}
